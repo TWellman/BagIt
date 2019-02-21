@@ -1,7 +1,7 @@
 
-=======================================
-####  BagIt: hierarchical file packaging format 
-=======================================
+============================================
+BagIt: hierarchical file packaging format 
+============================================
 
 
 -----------
@@ -22,13 +22,7 @@ This repository contains basic scripts on how to use Bagit for disk-based storag
 ----------------
 Functionality:
 ----------------
-[`BagIt`](https://en.wikipedia.org/wiki/BagIt) is used as a packaging format to support storage of digital content. `BagIt` packages can be used<br />
-to facilitate data sharing with Federal, State, and Local archive centers - thus ensuring digital preservation of important datasets<br /> 
-Bags are ideal for digital content normally kept as a collection of files. They are also well-suited to export, for archival<br /> 
-purposes of content normally kept in database structures that receiving parties are unlikely to support. Relying on cross-platform (Windows and Unix)<br />
-filesystem naming conventions, a bag's payload may include any number of directories and sub-directories (folders and sub-folders). A bag can specify<br />
-payload content indirectly via a "fetch.txt" file that lists URLs for content that can be fetched over the network to complete the bag; simple<br /> 
-parallelization (e.g. running 10 instances of Wget) can exploit this feature to transfer large bags very quickly. 
+[`BagIt`](https://en.wikipedia.org/wiki/BagIt) is used as a packaging format to support storage of digital content. `BagIt` packages can be used to facilitate data sharing with Federal, State, and Local archive centers - thus ensuring preservation of important datasets.  Bags are ideal for digital content normally kept as a collection of files. They are also well-suited to export, for archival purposes of content normally kept in database structures that receiving parties are unlikely to support. Relying on cross-platform (Windows and Unix) filesystem naming conventions, a bag's payload may include any number of directories and sub-directories (folders and sub-folders). A bag can specify payload content indirectly via a "fetch.txt" file that lists URLs for content that can be fetched over the network to complete the bag; simple parallelization (e.g. running 10 instances of Wget) can exploit this feature to transfer large bags very quickly. 
 
 1) Wide adoption in digital libraries (e.g. the Library of Congress).<br />
 2) Easy to implement using ubiquitous and ordinary filesystem tools.<br />
