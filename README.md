@@ -76,8 +76,8 @@ Source Code:
   
      Operations: <br />
      (a) Retrieves default archive metadata,<br />
-     (b) Retrieves default search criteria to select data files from ScienceBase items, and
-     (c) Customizes defaults via kwargs (optional),<br />
+     (b) Retrieves default search criteria to select data files from ScienceBase items, and<br />
+     (c) Customizes defaults via kwargs (optional)
 
   3) /bags
 
