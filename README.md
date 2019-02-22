@@ -82,7 +82,7 @@ Source Code:
   3) /bags
 
      Content: <br />
-     (a) Two BagIt example archives of OBIS-USA ScienceBase items
+     (a) BagIt example archives of OBIS-USA ScienceBase items
      
 
 Copyright and License:
