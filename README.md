@@ -69,6 +69,15 @@ Source Code:
      (d) Infuses BagIt archive metadata (task name, processing uuid, provider, contact, etc.),<br /> 
      (e) Validates Bagit archive structure and manifest information,<br />
      (f) Compresses Archive folder in *.tar format for improved transfer capabilities.
+     
+  2) File: /source/BagIt_archive_metadata.ipnb
+  
+     examples to retrieve and customize archive metadata
+  
+     Operations: <br />
+     (a) Retrieves default archive metadata,<br />
+     (b) Retrieves default search criteria to select data files from ScienceBase items, and
+     (c) Customizes defaults via kwargs (optional),<br />
 
   3) /bags
 
